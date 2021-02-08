@@ -35,11 +35,11 @@ class App extends Component {
         />
 
         <h1>Greetings</h1>
-        <Greetings lang="de">Ludwig</Greetings>
-        <Greetings lang="es">Santiago</Greetings>
-        <Greetings lang="en">Petro</Greetings>
-        <Greetings lang="jp">Granger</Greetings>
-        <Greetings lang="fr">Villane</Greetings>
+        <Greetings lang="de" name="Ludwig"></Greetings>
+        <Greetings lang="es" name="Ludwig"></Greetings>
+        <Greetings lang="en" name="Ludwig"></Greetings>
+        <Greetings lang="jp" name="Ludwig"></Greetings>
+        <Greetings lang="fr" name="Ludwig"></Greetings>
 
         <h1>Random</h1>
         <Random min={68} max={500} />
