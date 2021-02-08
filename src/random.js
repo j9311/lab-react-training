@@ -7,7 +7,7 @@ class Random extends Component {
       Math.floor(Math.random() * (this.props.max - this.props.min));
     return (
       <div className="box">
-        Random value between {this.props.min} and {this.props.max} is
+        Random value between {this.props.min} and {this.props.max} is{' '}
         {randomValue}
       </div>
     );

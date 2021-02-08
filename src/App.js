@@ -17,28 +17,29 @@ class App extends Component {
       <div className="App">
         <h1>IdCard</h1>
         <IdCard
+          picture="https://imgix.ranker.com/user_node_img/1111/22217506/original/john-doe-film-characters-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces"
           lastName="Doe"
           firstName="John"
           gender="male"
           height={178}
-          birth={new Date('1992-07-14')}
-          picture="https://randomuser.me/api/portraits/men/44.jpg"
+          birth={new Date('1976-07-14')}
         />
 
         <IdCard
-          lastName="Delores "
-          firstName="Obrien"
-          gender="female"
-          height={172}
-          birth={new Date('1993-05-11')}
-          picture="https://randomuser.me/api/portraits/women/8.jpg"
+          picture="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4HHuAIYQNo5knFczxt21nQHaHa%26pid%3DApi&f=1"
+          lastName="Herjhog"
+          firstName="Sanic"
+          gender="troglodytic"
+          height={72}
+          birth={new Date('1997-05-11')}
         />
 
         <h1>Greetings</h1>
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="es">Santiago</Greetings>
-        <Greetings lang="en">Santiago</Greetings>
-        <Greetings lang="fr">Santiago</Greetings>
+        <Greetings lang="en">Petro</Greetings>
+        <Greetings lang="jp">Granger</Greetings>
+        <Greetings lang="fr">Villane</Greetings>
 
         <h1>Random</h1>
         <Random min={68} max={500} />
@@ -56,7 +57,7 @@ class App extends Component {
           expirationMonth={3}
           expirationYear={2021}
           bank="BNP"
-          owner="Maxence Bouret"
+          owner="Jake"
           bgColor="#11aa99"
           color="white"
         />
@@ -66,7 +67,7 @@ class App extends Component {
           expirationMonth={3}
           expirationYear={2021}
           bank="N26"
-          owner="Maxence Bouret"
+          owner="Jake"
           bgColor="#eeeeee"
           color="#222222"
         />
@@ -76,7 +77,7 @@ class App extends Component {
           expirationMonth={12}
           expirationYear={2019}
           bank="Name of the Bank"
-          owner="Firstname Lastname"
+          owner="Jake"
           bgColor="#ddbb55"
           color="white"
         />
